@@ -3,6 +3,8 @@ ruby '2.0.0'
 
 # Authentication with Gem Devise
 gem 'devise'
+# Bootstrap SASS
+gem 'bootstrap-sass', '~> 3.0.0.0.rc'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
