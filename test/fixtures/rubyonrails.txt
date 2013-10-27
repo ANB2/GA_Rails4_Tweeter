@@ -1,0 +1,73 @@
+#
+# git
+#
+git init
+git add .
+git commit -m "New app install"
+git status
+ls .git
+ls .git/objects
+#
+#
+#
+# starts rails server WEBrick
+#
+rails s
+#
+# open new command line and ssh
+# 
+vagrant ssh
+#
+# createscaffold
+#
+rails new
+rails g scaffold tweet
+#
+#
+#
+rake db:create
+
+update db\migrate\20131026134029_create_tweets.rb with 
+create_table :tweets do |t|
+    	t.string :body
+
+      	t.timestamps 
+      	# will addcreated_at
+      	# will add pdated_at
+ end
+
+rake db:migrate
+#
+# check routes
+#
+config -> routes
+#
+# controllers
+#
+tweets_controller.rb
+
+#
+# models
+#
+tweets.rb
+#
+# views
+#
+views -> layouts
+application.html.erb
+
+#
+# git set up https://help.github.com/articles/set-up-git
+#
+git config --global user.name "an8122"
+git config --global user.email "anbusiness2@gmail.com"	
+
+chmod u+x git-credential-osxkeychain
+sudo mv git-credential
+
+git remote add origin https://github.com/ANB2/GA_Rails4_Tweeter.git
+git push -u origin master -f
+user: anb2
+pwd: G1thu8!..an
+
+git log --stat
