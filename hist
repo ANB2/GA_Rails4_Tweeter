@@ -1,0 +1,37 @@
+    1  git clone https://github.com/ANB2/GA_Rails4_Tweeter.git
+    2  heroku login
+    3  bundle
+    4  ls -lru
+    5  cd GA_Rails4_Tweeter
+    6  ls -lru
+    7  ls
+    8  ls -lru
+    9  bundle
+   10  heroku git:remote -r heroku -a amit-tweeter
+   11  git push heroku master
+   12  heroku keys:add
+   13  git config --global user.email "an.business2@gmail.com"
+   14  git config --global user.email "anb2"
+   15  git push heroku master
+   16  bundle
+   17  git status
+   18  git add .
+   19* 
+   20  git config --global user.email "an.busness2@gmail.com"
+   21  git config --global user.name "an8122"
+   22  git commit -m "Add PG gem to Heroku"
+   23  git push heroku master
+   24  heroku run rake db:migrate
+   25  heroku addons
+   26  git pull
+   27  git reset -hard
+   28  git pull
+   29  git reset --hard
+   30  git pull
+   31  git push
+   32  git push
+   33  git push heroku master
+   34  heroku run rake db:migrate
+   35  git push heroku master
+   36  history
+   37  history > hist
