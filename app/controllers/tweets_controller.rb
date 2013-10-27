@@ -6,7 +6,8 @@ class TweetsController < ApplicationController
   # GET /tweets
   # GET /tweets.json
   def index
-    @tweets = Tweet.all # references the DBand pass to the instance variable to access in views
+    @tweets = current_user.tweets
+ #  @tweets = Tweet.all # references the DBand pass to the instance variable to access in views
   end
 
   # GET /tweets/1
@@ -26,7 +27,8 @@ class TweetsController < ApplicationController
   # POST /tweets
   # POST /tweets.json
   def create
-    @tweet = Tweet.new(tweet_params)
+ #   @tweet = Tweet.new(tweet_params)
+    @tweet = current_user.tweets.build(tweet_params)
 
     respond_to do |format|
       if @tweet.save
