@@ -1,3 +1,40 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.navbar {
+  background-color: #95a5a6;
+  .navbar_brand  {
+  color: #f1c40f;
+  }
+}
+
+.navbar-default .navbar-nav{
+  li a {
+    color: #f1c40f;
+  
+  }
+}
+
+.tweet{
+  border: 1px solid #95a5a6;
+  background-color: #ecf0f1;
+  padding: 10px 20px;
+  margin-botttom: 10px;
+  
+  img {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .body{
+    font-size: 18px;
+    
+    .email{
+      color: #95a5a6;
+    }
+  
+  }
+
+}
+
